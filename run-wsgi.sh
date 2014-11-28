@@ -1,0 +1,1 @@
+`which uwsgi` --ini emperor.ini
