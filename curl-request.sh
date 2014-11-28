@@ -1,4 +1,3 @@
 curl -XGET \
     -vv \
-    -H 'Host: app1' \
-    http://localhost:8900/
+    http://localhost:9000/

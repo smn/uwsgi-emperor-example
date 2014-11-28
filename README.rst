@@ -10,9 +10,9 @@ Start uWSGI in Emperor mode with two Django app vassals::
 
 Start Nginx::
 
-        $ nginx -c ./nginx.conf
+        $ nginx -c `pwd`/nginx.conf
 
-Issue a request with curl to see the app being started automatically 
+Issue a request with curl to see the app being started automatically
 & stopped when idling::
 
         $ curl -XGET http://localhost:9000/
