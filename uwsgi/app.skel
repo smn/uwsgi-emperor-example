@@ -1,6 +1,6 @@
 [uwsgi]
 chdir = %d/%n
-socket = %d%n.socket
+; socket = %d%n.socket
 protocol=http
 threads = 10
 master = true
