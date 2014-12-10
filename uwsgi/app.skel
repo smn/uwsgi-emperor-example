@@ -8,3 +8,5 @@ env = DJANGO_SETTINGS_MODULE=%n.settings
 module = django.core.handlers.wsgi:WSGIHandler()
 idle = 10
 die-on-idle = true
+req-logger = file:%d/%n.request.log
+logger = file:%d/%n.log
